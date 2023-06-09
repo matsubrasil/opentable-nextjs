@@ -11,7 +11,7 @@ export default function DishesGalleryRestaurant() {
           src="https://resizer.otstatic.com/v2/photos/xlarge/3/41701449.jpg"
           alt=""
           height={176}
-          width={208}
+          width={224}
           unoptimized
         />
         <Image
@@ -19,7 +19,7 @@ export default function DishesGalleryRestaurant() {
           src="https://resizer.otstatic.com/v2/photos/xlarge/2/41701450.jpg"
           alt=""
           height={176}
-          width={208}
+          width={224}
           unoptimized
         />
         <Image
@@ -27,7 +27,7 @@ export default function DishesGalleryRestaurant() {
           src="https://resizer.otstatic.com/v2/photos/xlarge/2/41701452.jpg"
           alt=""
           height={176}
-          width={208}
+          width={224}
           unoptimized
         />
         <Image
@@ -35,7 +35,7 @@ export default function DishesGalleryRestaurant() {
           src="https://resizer.otstatic.com/v2/photos/xlarge/2/41701453.jpg"
           alt=""
           height={176}
-          width={208}
+          width={224}
           unoptimized
         />
         <Image
@@ -43,7 +43,7 @@ export default function DishesGalleryRestaurant() {
           src="https://resizer.otstatic.com/v2/photos/xlarge/2/41701454.jpg"
           alt=""
           height={176}
-          width={208}
+          width={224}
           unoptimized
         />
       </div>
