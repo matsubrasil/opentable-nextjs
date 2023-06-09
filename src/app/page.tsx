@@ -1,8 +1,19 @@
-import { Header, NavBar, RestaurantCard } from '@/components'
+import { Header, RestaurantCard } from '@/components'
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-screen bg-gray-100">
+    <main>
+      <Header />
+      <div className="mt-10 flex flex-wrap justify-center px-36 py-3">
+        <RestaurantCard />
+      </div>
+    </main>
+  )
+}
+
+/*
+
+<main className="min-h-screen w-screen bg-gray-100">
       <main className="m-auto max-w-screen-2xl bg-white">
         <NavBar />
         <main>
@@ -13,5 +24,4 @@ export default function Home() {
         </main>
       </main>
     </main>
-  )
-}
+    */
