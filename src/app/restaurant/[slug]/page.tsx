@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function RestaurantDetailsPage() {
   return (
@@ -7,9 +8,9 @@ export default function RestaurantDetailsPage() {
       <main className="m-auto max-w-screen-2xl bg-white">
         {/* NAVBAR */}
         <nav className="flex justify-between bg-white p-2">
-          <a href="" className="text-2xl font-bold text-gray-700">
+          <Link href="/" className="text-2xl font-bold text-gray-700">
             OpenTable
-          </a>
+          </Link>
           <div>
             <div className="flex">
               <button className="mr-3 rounded border bg-blue-400 p-1 px-4 text-white">
@@ -32,12 +33,12 @@ export default function RestaurantDetailsPage() {
           <div className="w-[70%] rounded bg-white p-3 shadow">
             {/* RESAURANT NAVBAR */}
             <nav className="flex border-b pb-2 text-reg">
-              <a href="" className="mr-7">
+              <Link href="/restaurant/milestones-grill/" className="mr-7">
                 Overview
-              </a>
-              <a href="" className="mr-7">
+              </Link>
+              <Link href="/restaurant/milestones-grill/menu" className="mr-7">
                 Menu
-              </a>
+              </Link>
             </nav>
             {/* RESTAURANT NAVBAR */} {/* TITLE */}
             <div className="mt-4 border-b pb-6">

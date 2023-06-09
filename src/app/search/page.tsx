@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function SearchPage() {
   return (
@@ -7,9 +8,9 @@ export default function SearchPage() {
       <main className="m-auto max-w-screen-2xl bg-white">
         {/* NAVBAR */}
         <nav className="flex justify-between bg-white p-2">
-          <a href="" className="text-2xl font-bold text-gray-700">
+          <Link href="/" className="text-2xl font-bold text-gray-700">
             OpenTable
-          </a>
+          </Link>
           <div>
             <div className="flex">
               <button className="mr-3 rounded border bg-blue-400 p-1 px-4 text-white">
