@@ -14,6 +14,7 @@ import ReservationCard from '@/components/ReservationCard'
 import RestaurantCard from '@/components/RestaurantCard'
 import ReviewsRestaurant from '@/components/ReviewsRestaurant'
 import RestaurantCardSearch from '@/components/RestaurantCardSearch'
+import SearchBar from '@/components/SearchBar'
 import SideBarSearch from '@/components/SideBarSearch'
 import TitleRestaurant from '@/components/TitleRestaurant'
 
@@ -34,6 +35,7 @@ export {
   RestaurantCard,
   RestaurantCardSearch,
   ReviewsRestaurant,
+  SearchBar,
   SideBarSearch,
   TitleRestaurant,
 }
