@@ -8,6 +8,12 @@ import {
   ReviewsRestaurant,
   TitleRestaurant,
 } from '@/components'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Milestones Grill | OpenTable',
+  description: 'Search your restaurant',
+}
 
 export default function RestaurantDetailsPage() {
   return (

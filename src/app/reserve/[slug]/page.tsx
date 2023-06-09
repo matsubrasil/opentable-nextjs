@@ -1,6 +1,11 @@
 import React from 'react'
+import { Metadata } from 'next'
 import { FormReserve, HeaderReserve } from '@/components'
 
+export const metadata: Metadata = {
+  title: 'Reserve at Milestones Grill | OpenTable',
+  description: 'Search your restaurant',
+}
 export default function ReserveDetailsPage() {
   return (
     <div className="h-screen border-t">
